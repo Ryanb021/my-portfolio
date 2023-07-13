@@ -49,6 +49,14 @@ const Skills = () => {
             <p className='my-4'>NodeJS</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='w-20 mx-auto' src={Netlify} alt="Netlify Icon" />
+            <p className='my-4'>Netlify</p>
+          </div>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='w-20 mx-auto' src={Python} alt="Python Icon" />
+            <p className='my-4'>Python</p>
+          </div>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={ReactIcon} alt="React Icon" />
             <p className='my-4'>React</p>
           </div>
@@ -63,14 +71,6 @@ const Skills = () => {
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={VSCode} alt="VSCode Icon" />
             <p className='my-4'>VSCode</p>
-          </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={Python} alt="Python Icon" />
-            <p className='my-4'>Python</p>
-          </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={Netlify} alt="Netlify Icon" />
-            <p className='my-4'>Netlify</p>
           </div>
         </div>
       </div>
