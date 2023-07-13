@@ -1,5 +1,6 @@
 import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi'
+import { Link } from 'react-scroll'
 
 const Home = () => {
   return (
@@ -14,9 +15,12 @@ const Home = () => {
           My passion as a Full Stack Developer stems from my deep fascination with the intersection of technology and creativity. I am driven by the opportunity to bring ideas to life through innovative and user-centric web applications. The ability to continuously learn, adapt, and contribute to every layer of the development stack fuels my enthusiasm and motivates me to create impactful and dynamic digital experiences.
         </p>
         <div>
-          <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>View Work
+          <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
+            View Work
             <span className='group-hover:rotate-90 duration-300'>
-              <HiArrowNarrowRight className='ml-3' />
+              <Link to="work" spy={true} smooth={true} duration={500}>
+                <HiArrowNarrowRight className='ml-3' />
+              </Link>
             </span>
           </button>
         </div>
