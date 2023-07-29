@@ -24,7 +24,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                ReactJS App Chat Sensei
+                Chat Sensei
               </span>
               <div className='pt-8 text-center'>
                 <a href="https://chat-sensei.netlify.app/">
@@ -43,7 +43,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                ReactJS App Whistler
+                Whistler
               </span>
               <div className='pt-8 text-center'>
                 <a href="https://github.com/Ryanb021/whistler">
@@ -62,7 +62,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                ReactJS App TuneTastic
+                TuneTastic
               </span>
               <div className='pt-8 text-center'>
                 <a href="https://the-dark-knight-project-tunetastic.netlify.app/">
@@ -75,38 +75,38 @@ const Work = () => {
             </div>
           </div>
 
-          <div style={{ backgroundImage: `url(${Horns})` }}
-          className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                ReactJS App Gallery of Horns
-              </span>
-              <div className='pt-8 text-center'>
-                <a href="https://the-dark-knight-page.netlify.app/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                </a>
-                <a href="https://github.com/Ryanb021/gallery-of-horns">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                </a>
-              </div>
-            </div>
-          </div>
-
           <div style={{ backgroundImage: `url(${CityExplorer})` }}
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                ReactJS App City Explorer
+                City Explorer
               </span>
               <div className='pt-8 text-center'>
                 <a href="https://dark-knight-city-explorer.netlify.app/">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
                 <a href="https://github.com/Ryanb021/city-explorer">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div style={{ backgroundImage: `url(${Horns})` }}
+          className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                Gallery of Horns
+              </span>
+              <div className='pt-8 text-center'>
+                <a href="https://the-dark-knight-page.netlify.app/">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                </a>
+                <a href="https://github.com/Ryanb021/gallery-of-horns">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
