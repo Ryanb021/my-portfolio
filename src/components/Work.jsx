@@ -3,6 +3,7 @@ import CityExplorer from '../assets/Projects/CityExplorer.png';
 import Horns from '../assets/Projects/Horns.png';
 import TuneTastic from '../assets/Projects/TuneTastic.png';
 import Whistler1 from '../assets/Projects/Whistler1.png';
+import ChatSensei from '../assets/Projects/ChatSensei.png';
 
 const Work = () => {
   return (
@@ -17,7 +18,7 @@ const Work = () => {
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
           {/* Grid Items */}
-          <div style={{ backgroundImage: `url(${Horns})` }}
+          <div style={{ backgroundImage: `url(${ChatSensei})` }}
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
             {/* Hover Effects */}
@@ -26,16 +27,17 @@ const Work = () => {
                 React JS Application
               </span>
               <div className='pt-8 text-center'>
-                <a href="https://the-dark-knight-page.netlify.app/">
+                <a href="https://chat-sensei.netlify.app/">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
-                <a href="https://github.com/Ryanb021/gallery-of-horns">
+                <a href="https://github.com/Ryanb021/chat-sensei">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
             </div>
           </div>
-          <div style={{ backgroundImage: `url(${CityExplorer})` }}
+
+          <div style={{ backgroundImage: `url(${Whistler1})` }}
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
             {/* Hover Effects */}
@@ -44,15 +46,16 @@ const Work = () => {
                 React JS Application
               </span>
               <div className='pt-8 text-center'>
-                <a href="https://dark-knight-city-explorer.netlify.app/">
+                <a href="https://github.com/Ryanb021/whistler">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
-                <a href="https://github.com/Ryanb021/city-explorer">
+                <a href="https://github.com/Ryanb021/whistler">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
             </div>
           </div>
+
           <div style={{ backgroundImage: `url(${TuneTastic})` }}
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
@@ -71,7 +74,8 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div style={{ backgroundImage: `url(${Whistler1})` }}
+
+          <div style={{ backgroundImage: `url(${Horns})` }}
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
             {/* Hover Effects */}
@@ -80,10 +84,29 @@ const Work = () => {
                 React JS Application
               </span>
               <div className='pt-8 text-center'>
-                <a href="https://github.com/Ryanb021/whistler">
+                <a href="https://the-dark-knight-page.netlify.app/">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
-                <a href="https://github.com/Ryanb021/whistler">
+                <a href="https://github.com/Ryanb021/gallery-of-horns">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div style={{ backgroundImage: `url(${CityExplorer})` }}
+          className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                React JS Application
+              </span>
+              <div className='pt-8 text-center'>
+                <a href="https://dark-knight-city-explorer.netlify.app/">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                </a>
+                <a href="https://github.com/Ryanb021/city-explorer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
