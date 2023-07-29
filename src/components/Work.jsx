@@ -24,7 +24,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+                ReactJS App Chat Sensei
               </span>
               <div className='pt-8 text-center'>
                 <a href="https://chat-sensei.netlify.app/">
@@ -43,7 +43,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+                ReactJS App Whistler
               </span>
               <div className='pt-8 text-center'>
                 <a href="https://github.com/Ryanb021/whistler">
@@ -62,7 +62,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+                ReactJS App TuneTastic
               </span>
               <div className='pt-8 text-center'>
                 <a href="https://the-dark-knight-project-tunetastic.netlify.app/">
@@ -81,7 +81,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+                ReactJS App Gallery of Horns
               </span>
               <div className='pt-8 text-center'>
                 <a href="https://the-dark-knight-page.netlify.app/">
@@ -100,7 +100,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+                ReactJS App City Explorer
               </span>
               <div className='pt-8 text-center'>
                 <a href="https://dark-knight-city-explorer.netlify.app/">
